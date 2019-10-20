@@ -15,9 +15,24 @@
             android:layout_width="match_parent"
             android:layout_height="450dp"
             android:layout_gravity="bottom"
-            android:background="@android:color/holo_blue_dark"/>
+            android:background="@android:color/holo_blue_dark">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:textSize="25dp"
+                android:hint="USERNAME"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="35dp"
+                android:textColorHint="#fff" />
+
+        </LinearLayout>
 
     </LinearLayout>
-
 
 </RelativeLayout>
