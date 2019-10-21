@@ -63,6 +63,7 @@
 
     <Button
         android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="350dp"
         android:layout_height="52dp"
         android:layout_marginStart="43dp"
@@ -71,7 +72,9 @@
         android:layout_marginEnd="53dp"
         android:layout_marginRight="53dp"
         android:layout_marginBottom="124dp"
+        android:background="@drawable/rounded_button"
         android:text="LOG IN WITH FACEBOOK"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
@@ -90,6 +93,7 @@
         android:layout_marginRight="54dp"
         android:layout_marginBottom="42dp"
         android:text="SIGN UP"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
